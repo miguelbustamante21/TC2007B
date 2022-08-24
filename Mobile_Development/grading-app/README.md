@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Installing missing modules to run this app
+
+In a new terminal, make sure to run the following commands: 
+
+### `npm install react-router-dom@6`
+### `npm install papaparse`
+
 ## Available Scripts
 
 In the project directory, you can run:
