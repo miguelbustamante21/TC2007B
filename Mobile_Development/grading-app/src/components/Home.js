@@ -76,6 +76,9 @@ const Home = () => {
         else if(val < 64) {
             return 'E';
         }
+        else {
+            return '';
+        }
     };
   
     return (
