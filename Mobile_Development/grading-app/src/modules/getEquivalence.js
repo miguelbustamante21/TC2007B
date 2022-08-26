@@ -1,6 +1,6 @@
 const getEquivalence = (val) => {
 
-    if (val >= 93 && val <= 99) {
+    if (val >= 93 && val <= 100) {
         return 'A';
     }
     else if(val >= 90 && val <= 92) {
@@ -30,10 +30,12 @@ const getEquivalence = (val) => {
     else if(val >= 64 && val <= 66) {
         return 'D';
     }
-    else if(val < 64) {
+    else if(val < 64 && val >= 0) {
         return 'E';
     }
     else {
         return '';
     }
 };
+
+export {getEquivalence};

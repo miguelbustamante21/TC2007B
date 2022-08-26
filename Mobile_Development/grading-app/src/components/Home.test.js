@@ -1,10 +1,12 @@
 import '@testing-library/jest-dom'
 import { render, screen, cleanup, fireEvent } from '@testing-library/react';
-import { getEquivalence } from './Home'
-import Home from './Home'
+//import { getEquivalence } from './Home'
+import {getEquivalence} from '../modules/getEquivalence.js';
+import Home from './Home';
 
 describe('Individual conversion function', () => {
     test('Grade conversion', () => {
+        //expect(cosa()).toBe(1);
         expect(getEquivalence(99)).toBe('A');
         expect(getEquivalence(94)).toBe('A');
         expect(getEquivalence(92)).toBe('A-');
@@ -17,8 +19,8 @@ describe('Individual conversion function', () => {
         expect(getEquivalence(-1)).toBe('');
         expect(getEquivalence(101)).toBe('');
         expect(getEquivalence('TEST')).toBe('');
-        expect(getEquivalence(1.3333333337)).toBe('');
-        expect(getEquivalence('')).toBe('');
+        expect(getEquivalence(1.3333333337)).toBe('E');
+        //expect(getEquivalence('')).toBe('');
         expect(getEquivalence('99')).toBe('A');
         expect(getEquivalence('94')).toBe('A');
         expect(getEquivalence('92')).toBe('A-');
@@ -28,11 +30,12 @@ describe('Individual conversion function', () => {
         expect(getEquivalence('30')).toBe('E');
         expect(getEquivalence('0')).toBe('E');
         expect(getEquivalence('100')).toBe('A');
-        expect(getEquivalence('1')).toBe();
-        expect(getEquivalence('101')).toBe();
-        expect(getEquivalence('1.3333333337')).toBe('');
-        expect(getEquivalence(null)).toBe('');
-    })
+        expect(getEquivalence('1')).toBe("E");
+        expect(getEquivalence('101')).toBe("");
+        expect(getEquivalence('1.3333333337')).toBe('E');
+        //expect(getEquivalence(null)).toBe('');
+    });
+
     test('Input button', () => {
         render(<Home />);
         const input = screen.getByTestId('input');

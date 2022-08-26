@@ -1,8 +1,11 @@
-
 import "../index.css";
 import { useState } from "react";
 import Papa from "papaparse";
-import getEquivalence from '../../modules/getEquivalence.js'
+import {getEquivalence} from '../modules/getEquivalence.js';
+
+const cosa = () => {
+    return 1;
+}
 
 const Home = () => {
     
@@ -116,3 +119,4 @@ const Home = () => {
 }
  
 export default Home;
+export {cosa}
