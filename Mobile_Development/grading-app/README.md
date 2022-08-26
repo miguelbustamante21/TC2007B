@@ -148,22 +148,27 @@ Las pruebas en sí se crearon en un script (archivo .test.js) y se aplicaron a f
 
 
 ## Referencias
-Ayabaca, L.L.P. & Bernal, S.A.M. (2018). Verificación, validación y pruebas de software. 
+- Ayabaca, L.L.P. & Bernal, S.A.M. (2018). Verificación, validación y pruebas de software. 
 Killkana Técnica, 1(29). Recuperado de 
 https://www.researchgate.net/publication/322876470_Verificacion_validacion_y_prue
 bas_de_software 
-‌Chavarria, A. (2018). Pruebas de Regresión: 6 Recomendaciones para una buena 
+‌
+- Chavarria, A. (2018). Pruebas de Regresión: 6 Recomendaciones para una buena 
 planificación. Encora. Recuperado de 
 https://www.encora.com/es/blog/pruebas-de-regresion-6-recomendaciones-para-una-b
 uena-planificacion
-Herrera, C.L. (2019). Qué es el Testing de Software. Open Webinars. Recuperado de 
+
+- Herrera, C.L. (2019). Qué es el Testing de Software. Open Webinars. Recuperado de 
 https://openwebinars.net/blog/que-es-el-testing-de-software/
-IBM Documentation. (2021, March 5). Ibm.com. 
+
+- IBM Documentation. (2021, March 5). Ibm.com. 
 https://www.ibm.com/docs/es/rtw/9.0.1?topic=phases-integration-testing
-Lee, G. (2020, October 16). Tipos de pruebas de software: diferencias y ejemplos. LoadView 
+
+- Lee, G. (2020, October 16). Tipos de pruebas de software: diferencias y ejemplos. LoadView 
 by Dotcom-Monitor. Recuperado de 
 https://www.loadview-testing.com/es/blog/tipos-de-pruebas-de-software-diferencias-y
 -ejemplos/
-LoadView. (2016). Tipos de pruebas de software: diferencias y ejemplos. Recuperado de 
+
+- LoadView. (2016). Tipos de pruebas de software: diferencias y ejemplos. Recuperado de 
 https://www.loadview-testing.com/es/blog/tipos-de-pruebas-de-software-diferencias-y
 -ejemplos/
